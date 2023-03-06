@@ -16,11 +16,11 @@
 #Input Food
 #Set Remaining Balance = Initial Budget - (Fuel + Accommodation + Food)
 #Display Location:
-#Display Initial Budget:
-#Display Fuel
-#Display Accommodation:
-#Display Food
-#Display Remaining Balance
+#Display $Initial Budget:
+#Display $Fuel
+#Display $Accommodation:
+#Display $Food
+#Display $Remaining Balance
 
 print('This program calculates and displays travel expenses')
 initial_budget = int(input('Enter Budget: '))
