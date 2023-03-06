@@ -1,6 +1,6 @@
 # Program calculates the travel expenses
-# Feb 15, 2023
-# CTI-110 P1HW2 - Travel Expense
+# March 06, 2023
+# CTI-110 P2HW1 - Travel Expense
 # Rina Moody
 #
 ##**********Pseudocode**********
