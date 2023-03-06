@@ -1,6 +1,6 @@
 # Program calculates the travel expenses
-# March 06, 2023
-# CTI-110 P2HW1 - Travel Expense
+# March 5, 2023
+# CTI-110 P2HW1 - Travel
 # Rina Moody
 #
 ##**********Pseudocode**********
@@ -29,11 +29,9 @@ fuel = int(input('How much you think you will spend on gas? '))
 accommodation = int(input('Approximately, how much will you need for accommodation/hotel? '))
 food = int(input('Last, how much do you need for food? '))
 print('\n------------Travel Expenses------------')
-print(f'{Location:':<20}{location}')
-print(f'{Initial Budget:':<20}${initial_budget}')
-print(f'{\nFuel:':<20}${fuel}')
-print(f'{Accommodation:':<20}${accommodation}')
-print(f'{Food:':<20}${food}')
-print(F'{\nRemaining Balande:':<20}${initial_budget - (fuel + accommodation + food)}')
-
-
+print('Location:',location)
+print('Initial Budget:',initial_budget)
+print('\nFuel:',fuel)
+print('Accommodation:',accommodation)
+print('Food:',food)
+print('\nRemaining Balande:',initial_budget - (fuel + accommodation + food))
