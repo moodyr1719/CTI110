@@ -34,3 +34,4 @@ rina.forward(80)
 rina.right(150)
 rina.forward(110)
 
+wn.mainloop()
